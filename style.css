@@ -6,10 +6,11 @@
   font-family: sans-serif;
   font-size: 12px;
 }
+
 body {
   width: 100%;
   min-height: 800px;
-  background-color: rgb(243, 243, 243);
+  background-color: rgb(250, 250, 250);
   margin: 0px;
   padding: 0;
   display: flex;
@@ -23,6 +24,87 @@ body {
   width: 60%;
   height: 160px;
 }
+.instaphone {
+  display: flex;
+  align-items: center;
+  width: 50%;
+}
+.group {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(255, 255, 255);
+  width: 90%;
+  padding: 25px 0px;
+  margin-bottom: 10px;
+  border: 1px solid rgb(221, 221, 221);
+  flex-direction: column; /*alinha colunas// linha copiada do gabarito */
+}
 .instaphone img {
   height: 800px;
 }
+.instalogin {
+  align-items: center;
+  display: flex;
+  width: 50%;
+  flex-direction: column; /*alinha colunas// linha copiada do gabarito */
+}
+.profile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.profile img {
+  height: 100px;
+}
+.instagram-login {
+  margin-top: 5px;
+  background-color: #0381d4;
+  padding: 10px;
+  border-radius: 2px;
+  display: flex;
+  color: white;
+  margin-bottom: 15px;
+}
+.instagram-logout {
+  margin-top: 2px;
+}
+.not-account {
+  color: rgb(128, 128, 128);
+}
+.inscrever {
+  color: blue;
+}
+.alternar {
+  color: blue;
+}
+.group2 {
+  padding: 10px;
+}
+.download {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  width: 100%;
+  justify-content: space-evenly; /*linha copiada do gabarito */
+}
+
+/*copiado do gabarito, na medida pixels as imagens se cortavam*/
+.app-download {
+  height: 5rem;
+  width: 17rem;
+  background-size: cover;
+}
+
+.app-download:nth-child(1) {
+  background-image: url("img/googleplay-button.png");
+}
+
+.app-download:nth-child(2) {
+  background-image: url("img/apple-button.png");
+}
+
+/*ajustes de cores em grande parte foram feitos após o término da lp 
+via gabarito no github da sprucegabriela*/
